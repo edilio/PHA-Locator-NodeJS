@@ -8,6 +8,7 @@
   "dependencies": {
     "connect" : "2.14.3",
     "express": "3.4.6",
+    "mysql": "2.1.1",
     "jade": "*"
   }
 }

@@ -40,6 +40,7 @@ app.get('/provinces', user.provinces);
 app.get('/admin-log', user.logs);
 app.get('/muni', user.muni);
 app.get('/phas', user.phas);
+app.get('/phas-all', user.phas_all);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
